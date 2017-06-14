@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: spring-vault
+    cloud:
+        vault: 
+          token: 3f9310e1-b988-dcb2-ba3b-ff27d340f2f0
+          host: localhost
+          port: 8200
+          scheme: http
+          connection-timeout: 5000
+          read-timeout: 15000
